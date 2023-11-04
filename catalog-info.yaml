@@ -1,0 +1,14 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ansible24
+  description: remove-a-vm
+  annotations:
+    backstage.io/kubernetes-id: ansible24
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: neenspa/ansible24
+spec:
+  type: api
+  lifecycle: production
+  owner: amargheritini
